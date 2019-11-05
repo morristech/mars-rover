@@ -1,2 +1,2 @@
 # mars-rover
-Solution for technical assessment 
+Solution for technical assessment.
