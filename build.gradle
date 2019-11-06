@@ -5,7 +5,6 @@
  * For more details take a look at the Java Quickstart chapter in the Gradle
  * User Manual available at https://docs.gradle.org/5.6.3/userguide/tutorial_java_projects.html
  */
-
 plugins {
     // Apply the java plugin to add support for Java
     id 'java'
@@ -31,4 +30,8 @@ dependencies {
 application {
     // Define the main class for the application
     mainClassName = 'za.co.morristech.marsrover.App'
+}
+
+run {
+    standardInput = System.in
 }
